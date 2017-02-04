@@ -18,7 +18,9 @@ The module can be installed from the public npm registry, e.g.
 Usage
 -----
 
-### Method 1: Short and Sweet
+### Method 1: Direct from command line
+
+`npm bin`/list-installed-dependencies
 
 ### Method 2: Through `npm run`
 
