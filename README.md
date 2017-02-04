@@ -39,7 +39,7 @@ You can now run commands such as the following to list the configured dependenci
     # list all dependencies, one-per-line
     npm run list-deps
     # list selected dependencies matching a regexp
-    npm run list-deps "^ng2-alfresco-"
+    npm run list-deps "^ember-cli-"
 ```
 
 If you are parsing the output of the script with a shell script, you probably want
@@ -51,8 +51,10 @@ you can use this directly if you are writing scripts yourself.
 
 ```js
     var listDependencies = require('list-installed-dependencies');
-    listDependencies('lodash', function(deps) {
-        console.log(d.name + '@' + d.version);
+    listDependencies('lodash', function(dependencies) {
+        dependencies.forEach(function(d) {
+            console.log(d.name + '@' + d.version);
+        });
     });
 ```
 
