@@ -1,9 +1,12 @@
-# list-dependencies
+# list-installed-dependencies
+
 List the dependencies present in the local npm project's `package.json` file.
 
 The tool lists the installed versions of all dependencies listed explicitly in `package.json` in the current project/directory. .
 
 By default it lists all dependencies but you can supply a single argument to filter the list, which will match using a RegExp against the module names.
+
+Highly inspired by [@wabson/list-dependencies](https://github.com/wabson/list-dependencies) npm package.
 
 Installation
 ------------
