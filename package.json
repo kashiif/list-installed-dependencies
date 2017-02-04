@@ -1,6 +1,6 @@
 {
   "name": "list-installed-dependencies",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "List dependencies from package.json and their versions present in the local node_modules folder",
   "main": "index.js",
   "scripts": {
