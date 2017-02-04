@@ -1,0 +1,30 @@
+{
+  "name": "list-installed-dependencies",
+  "version": "0.0.0",
+  "description": "List dependencies from package.json and their versions present in the local node_modules folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "list-installed-dependencies": "bin/list-dependencies.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kashiif/list-installed-dependencies.git"
+  },
+  "keywords": [
+    "npm",
+    "dependencies"
+  ],
+  "author": "Kashif Iqbal Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kashiif/list-installed-dependencies/issues"
+  },
+  "homepage": "https://github.com/kashiif/list-installed-dependencies#readme",
+  "dependencies": {
+    "async": "^2.1.4",
+    "read-package-json": "^2.0.4"
+  }
+}
